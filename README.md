@@ -1,6 +1,6 @@
 # go_conv
 
-A simple commandline tool for converting values to and from some common physical units.
+A simple commandline tool for converting values between some common physical units.
 
 Inspired by Exercise 2.2 from the [GOPL book](https://www.gopl.io/).
 
