@@ -1,2 +1,2 @@
 # todo list
-- remove every operation that involves the "to" flag 
+- use a switch statement to handle each case for len(os.Args)

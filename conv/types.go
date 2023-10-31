@@ -21,40 +21,40 @@ type Gallons float64
 
 // temperature methods
 func (t Celsius) String() string {
-	return fmt.Sprintf("%.2g C", t)
+	return fmt.Sprintf("%.2f C", t)
 }
 
 func (t Fahrenheit) String() string {
-	return fmt.Sprintf("%.2g F", t)
+	return fmt.Sprintf("%.2f F", t)
 }
 
 func (t Kelvin) String() string {
-	return fmt.Sprintf("%.2g K", t)
+	return fmt.Sprintf("%.2f K", t)
 }
 
 // weight methods
 func (w Kilograms) String() string {
-	return fmt.Sprintf("%.2g kg", w)
+	return fmt.Sprintf("%.2f kg", w)
 }
 
 func (w Pounds) String() string {
-	return fmt.Sprintf("%.2g lbs", w)
+	return fmt.Sprintf("%.2f lbs", w)
 }
 
 // distance methods
 func (d Meters) String() string {
-	return fmt.Sprintf("%.2g m", d)
+	return fmt.Sprintf("%.2f m", d)
 }
 
 func (d Feet) String() string {
-	return fmt.Sprintf("%.2g ft", d)
+	return fmt.Sprintf("%.2f ft", d)
 }
 
 // volume methods
 func (v Liters) String() string {
-	return fmt.Sprintf("%.3g L", v)
+	return fmt.Sprintf("%.2f L", v)
 }
 
 func (v Gallons) String() string {
-	return fmt.Sprintf("%3g gal", v)
+	return fmt.Sprintf("%.2f gal", v)
 }
